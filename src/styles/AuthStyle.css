@@ -4,10 +4,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    min-height: 90vh;
     flex-direction: column;
-    background-color: #ffdee9;
-    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+    /* background-color: #ffffff; */
+    /* background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%); */
   }
   
   .form-container form {
@@ -56,10 +56,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 70vh;
+  min-height: 75vh;
   flex-direction: column;
-  background-color: #ffdee9;
-  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  background-color: #e1e1e1;
+  /* background-image: linear-gradient(0deg, #7d3131 0%, #05a19b 100%); */
 }
 
 .form-container form {

@@ -39,7 +39,7 @@ const CategoryProduct = () => {
                                 >
                                     <img
                                         src={`${process.env.REACT_APP_API}/api/v1/product/product-photo/${p._id}`}
-                                        className="card-img-top"
+                                        className="card-img-top h-100"
                                         alt={p.name}
                                     />
                                     <div className="card-body">
@@ -47,16 +47,16 @@ const CategoryProduct = () => {
                                         <p className="card-text">
                                             {p.description.substring(0, 30)}...
                                         </p>
-                                        <p className="card-text"> $ {p.price}</p>
-                                        <button
+                                        {/* <p className="card-text"> $ {p.price}</p> */}
+                                        {/* <button
                                             className="btn btn-primary ms-1"
                                             onClick={() => navigate(`/product/${p.slug}`)}
                                         >
                                             More Details
-                                        </button>
-                                        <button className="btn btn-secondary ms-1">
+                                        </button> */}
+                                        {/* <button className="btn btn-primary ms-1 center">
                                             ADD TO CART
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </div>
                             ))}
